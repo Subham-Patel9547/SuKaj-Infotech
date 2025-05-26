@@ -198,23 +198,31 @@ export const teamMembers = [
     image: "./IMAGES/img107.jpg",
   },
   {
+    name: "Kajal Singh",
+    title: "Head of HR",
+    description: "With a strong grasp of organizational dynamics and people management, Kajal ensures a positive workplace culture and streamlines HR operations to support team growth.",
+    image: "./IMAGES/kajal.jpeg",
+  },
+  {
     name: "Rohit Kumar Patel",
     title: "CTO & Co-Founder",
-    description: "With a deep technical background, Rohit leads the technology vision, building scalable systems and driving technical innovation at the core.",
+    description: "As the CTO & Co-Founder, Rohit Kumar Patel spearheads the company’s technology strategy, ensuring robust architecture, scalability, and innovation across all platforms.",
     image: "./IMAGES/rohit.jpg",
   },
+  {
+    name: "Divya Kumari",
+    title: "MERN Developer",
+    description: "As a MERN Developer, Divya Kumari specializes in building dynamic and responsive full-stack web applications using MongoDB, Express.js, React, and Node.js.",
+    image: "./IMAGES/img101.jpg",
+  },
+
   {
     name: "Sumit Kumar",
     title: "Project Manager",
     description: "Sumit oversees projects from concept to delivery, ensuring seamless execution, timely delivery, and efficient team collaboration.",
-    image: "./IMAGES/sumit.png",
+    image: "./IMAGES/sumit.jpeg",
   },
-  {
-    name: "Divya Singh",
-    title: "Head of HR",
-    description: "With a strong grasp of organizational dynamics and people management, Divya ensures a positive workplace culture and streamlines HR operations to support team growth.",
-    image: "./IMAGES/img101.jpg",
-  },
+
   {
     name: "Sumit Soni",
     title: "Product Manager",
@@ -228,11 +236,12 @@ export const teamMembers = [
     image: "./IMAGES/dilshad.png",
   },
   {
-    name: "Kajal Singh",
-    title: "UI/UX Designer",
-    description: "Kajal designs intuitive and visually compelling user interfaces that enhance user engagement and elevate the overall experience.",
-    image: "./IMAGES/kajal.jpeg",
-  }
+    name: "Ishita Pathak",
+    title: "ReactJS Developer",
+    description: "Ishita specializes in building dynamic and responsive user interfaces using ReactJS, creating seamless and efficient web experiences.",
+    image: "./IMAGES/ishita.jpeg",
+  },
+
 
 ];
 
@@ -399,5 +408,37 @@ export const jobListings = [
       "We need a creative and detail-oriented UI/UX Designer to design user-friendly interfaces and experiences for web and mobile apps.",
     skills: ["Figma", "Adobe XD", "Wireframing", "User Research"],
     applyLink: "/apply/ui-ux-designer",
+  },
+];
+
+
+// why join us
+import { CalendarDays, PartyPopper, Wallet } from "lucide-react";
+
+export const perks = [
+  {
+    icon: Briefcase,
+    title: "High Autonomy",
+    description: "Take ownership of your work with freedom to innovate and make impactful decisions.",
+  },
+  {
+    icon: CalendarDays,
+    title: "5-Day Work Week",
+    description: "Enjoy your weekends—work smart, rest well.",
+  },
+  // {
+  //   icon: Heart,
+  //   title: "Work-Life Balance",
+  //   description: "Flexible culture that respects your time and well-being.",
+  // },
+  {
+    icon: PartyPopper,
+    title: "Unified Festivities",
+    description: "Celebrate together with vibrant events and joyful moments.",
+  },
+  {
+    icon: Wallet,
+    title: "Leave Encashment",
+    description: "Get rewarded for your unused leaves with encashment benefits.",
   },
 ];

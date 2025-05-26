@@ -135,7 +135,9 @@ const Footer = () => {
               <h1 className="activeYellow mt-1 text-xl font-bold">
                 <FaEnvelope />
               </h1>
-              <h1 className="text-md font-semibold">subhampatel9547@gmail.com</h1>
+              <h1 className="text-md font-semibold">
+                subhampatel9547@gmail.com
+              </h1>
             </div>
           </div>
         </div>

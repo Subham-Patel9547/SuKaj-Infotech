@@ -1,10 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleMenu = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
 
@@ -12,7 +11,7 @@ const Navbar = () => {
     isActive ? "activeYellow font-bold" : "regularColor hover:activeYellow";
 
   return (
-    <nav className="bg-gray-950/30  backdrop-blur-md fixed w-full top-0 left-0 z-50  navBarBorder">
+    <nav className="bg-gray-950/60  backdrop-blur-md fixed w-full top-0 left-0 z-50  navBarBorder">
       <div className="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center text-xl">
         <div className="h-10 w-32 rounded-3xl overflow-hidden ">
           <img
