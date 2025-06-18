@@ -31,11 +31,32 @@ const Footer = () => {
             ourselves as a major IT service provider in the competitive global
             marketplace.
           </p>
+          {/* social Media Links */}
           <div className="flex gap-4 mt-4 text-yellow-400 text-2xl">
-            <FaTwitter className="social-media" />
-            <FaLinkedin className="social-media" />
-            <FaFacebook className="social-media" />
-            <FaInstagram className="social-media" />
+           
+              <FaTwitter className="social-media" />
+           
+            <a
+              href="https://linkedin.com/in/subham-patel9547"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="social-media" />
+            </a>
+            <a
+              href="https://www.instagram.com/subh__am9547/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="social-media" />
+            </a>
+            <a
+              href="https://www.facebook.com/shivampatel.hindu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook className="social-media" />
+            </a>{" "}
           </div>
         </div>
 
